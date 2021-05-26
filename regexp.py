@@ -2,8 +2,6 @@ import re
 from logger import logger
 from settings import filepath
 
-filepath = filepath()
-
 @logger(filepath)
 def normalize_fio(list):
     name = ','.join(list)

@@ -1,5 +1,3 @@
 import os
-
-def filepath():
-    file_path = os.getcwd()
-    return os.path.join(file_path, 'loggers.csv')
+filename = 'logers.csv' # Введите название файла, в который сохранять логи. Файл формата CSV
+filepath = os.path.join(os.getcwd(), filename)
